@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Noto Kufi Arabic", sans-serif;
+  
+}
+
+.features a {
+  color: #2B3B1B;
+  transition: 3s;
+  border-bottom: none 3px #2B3B1B;  
+
+}
+
+.features a:hover {
+  border-bottom: solid 3px #2B3B1B;  
+}
