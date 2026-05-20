@@ -1,4 +1,9 @@
 @import "tailwindcss";
+@theme {
+  --color-primary-color: #2B3B1B;
+  --color-secondary-color: #6d8c4e;
+  --color-tertiary-color: #EAFADA;
+}
 
 body {
   font-family: "Noto Kufi Arabic", sans-serif;
@@ -6,12 +11,29 @@ body {
 }
 
 .features a {
-  color: #2B3B1B;
+  position: relative;
+  color: #647454;
   transition: 3s;
   border-bottom: none 3px #2B3B1B;  
 
 }
 
+.features a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0%;
+  border-bottom: solid 2px #2B3B1B;
+  transform: scaleX(0.0); /* Center it and shrink to 50% */
+  transition: transform 0.5s ease;
+}
+
+.features a:hover::after {
+  transform: scaleX(1);
+  width: 100%;
+}
+
 .features a:hover {
-  border-bottom: solid 3px #2B3B1B;  
+  color:#2B3B1B
 }
