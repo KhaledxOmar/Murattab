@@ -3,6 +3,8 @@ import NavBar from './NavBar'
 import Hero from './Hero'
 import WhyUs from './WhyUs'
 import Features from './Features'
+import ShowCase from './ShowCase'
+import HowItWorks from './HowItWorks'
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
       <Hero/>
       <WhyUs/>
       <Features/>
+      <ShowCase/>
+      <HowItWorks/>
     </>
   )
 }
