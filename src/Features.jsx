@@ -1,4 +1,6 @@
 import { FaBoltLightning, FaChartLine, FaShieldHalved, FaCirclePlay, FaCreditCard, FaUser } from "react-icons/fa6"
+import { FaCircle } from "react-icons/fa"
+
 
 function Features(){
     const boxes = 'bg-white h-[210px] w-[310px] rounded-2xl border-[#b3bfa7]/15 border-1 hover:shadow-xl hover:-translate-y-1 duration-300 mt-9'
@@ -6,7 +8,16 @@ function Features(){
     const body = "text-[#959d8d] text-sm"
 
     return(
-        <section id="features" className="bg-tertiary-color pt-27 pb-27">
+        <section id="features" className="bg-tertiary-color pt-20 pb-25">
+            
+            <div className="flex justify-center">
+                <h4 className="px-4 py-1 bg-[#f7fdf0] text-secondary-color rounded-2xl mb-8 text-center">
+                <FaCircle className="inline text-xs ml-2 px-[1px]"/>
+                    المميزات
+                </h4>
+            </div>
+            
+
             <h1 className="text-center text-primary-color pb-7 text-5xl font-extrabold">
             كل ما تحتاجه في مكان واحد
             </h1>
