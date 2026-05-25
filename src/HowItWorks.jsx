@@ -1,4 +1,4 @@
-import { FaBoltLightning, FaHeadphones, FaArrowTrendUp, FaShieldHalved, FaCircle } from "react-icons/fa6"
+import { FaCircle } from "react-icons/fa6"
 
 function HowItWorks(){
 
