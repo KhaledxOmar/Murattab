@@ -4,7 +4,7 @@ function NavBar(){
 
     return(
         <>
-            <nav className="bg-tertiary-color py-4 px-13 w-full flex justify-around fixed">
+            <nav className="bg-tertiary-color/50 py-4 px-13 w-full flex justify-around fixed z-9">
                 <div>
                     <FaBook className="bg-secondary-color text-tertiary-color text-4xl px-2 py-2 inline rounded-md ml-3"/>
                     <a className="text-xl w-full h-full font-bold text-primary-color">
