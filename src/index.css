@@ -37,3 +37,12 @@ body {
 .features a:hover {
   color:#2B3B1B
 }
+
+.prices li {
+  margin-bottom: 20px;
+}
+
+.prices li::before {
+  content: "\2714";
+  margin-left: 10px;
+}
