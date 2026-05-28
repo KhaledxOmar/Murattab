@@ -7,11 +7,12 @@ import ShowCase from './ShowCase'
 import HowItWorks from './HowItWorks'
 import Prices from './Prices'
 import Faq from './Faq'
+import Footer from './Footer'
 
 function App() {
 
   return (
-    <html className='!scroll-smooth'>
+    <html className='!scroll-smooth overflow-x-hidden'>
       <NavBar/>
       <Hero/>
       <WhyUs/>
@@ -20,6 +21,7 @@ function App() {
       <HowItWorks/>
       <Prices/>
       <Faq/>
+      <Footer/>
     </html>
   )
 }
