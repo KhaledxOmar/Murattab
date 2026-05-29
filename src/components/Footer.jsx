@@ -26,11 +26,11 @@ function Footer(){
 
         <section className="bg-tertiary-color min-h-[12rem] w-full flex justify-around items-center">
 
-            <div className="h-[10rem] w-full flex justify-between items-center pl-39 pr-30 max-lg:pr-2 max-lg:pl-2">
+            <div className="h-[10rem] w-full flex justify-between items-center pl-39 pr-30 max-lg:pr-7 max-lg:pl-7">
                 <div className="pb-10 max-lg:pb-2">
                     <div className="pb-3">
                         <FaBook className="bg-secondary-color text-tertiary-color text-4xl px-2 py-2 inline rounded-md ml-3"/>
-                        <a className="text-xl w-full h-full font-bold text-primary-color max-lg:text-lg">
+                        <a className="text-xl w-full h-full font-bold text-primary-color max-md:text-md max-lg:text-lg">
                             مُرتَّب
                         </a>
                     </div>

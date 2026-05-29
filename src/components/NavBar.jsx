@@ -13,14 +13,14 @@ function NavBar(){
                     </a>
                 </div>
 
-                <div className="features pt-1.5 flex justify-around gap-7 max-md:gap-1 max-md:text-xs">
+                <div className="features pt-1.5 flex justify-around gap-7 max-md:gap-3 max-md:text-xs">
                     <a href="#features">المميزات</a>
                     <a href="#how">كيف يعمل</a>
                     <a href="#prices">الأسعار</a>
                     <a href="#FAQ">الأسئلة الشائعة</a>
                 </div>
 
-                <Link to='/login' className="px-4 pt-1 bg-secondary-color text-tertiary-color rounded-xl font-medium hover:shadow-lg duration-300 hover:scale-101 cursor-pointer max-md:px-1 max-md:font-sm">تسجيل الدخول</Link>
+                <Link to='/login' className="px-4 pt-1 bg-secondary-color text-tertiary-color rounded-xl font-medium hover:shadow-lg duration-300 hover:scale-101 cursor-pointer max-md:px-1 pt-1.5 max-md:font-sm">تسجيل الدخول</Link>
             </nav>
         </>
     )
