@@ -4,21 +4,21 @@ function Hero() {
 
 
     return(
-        <section className="bg-tertiary-color flex flex-col justify-start pt-35 pb-35 items-center min-h-[90vh]">
+        <section className="bg-tertiary-color flex flex-col justify-start pt-35 pb-35 items-center min-h-[90vh] max-md:min-h-[80vh]">
             <h4 className="px-4 py-1 bg-[#f7fdf0] text-secondary-color rounded-2xl mb-8">
             <FaCircle className="inline text-xs ml-2 px-[1px]"/>
             منصة عربية متكاملة لبيع الدورات
             </h4>
 
-            <h1 className="text-primary-color text-7xl font-extrabold mb-4">
+            <h1 className="text-primary-color text-7xl font-extrabold mb-4 max-md:text-3xl">
                 أنشئ أكاديميتك
             </h1>
 
-            <h1 className="text-secondary-color text-7xl font-extrabold mb-6">
+            <h1 className="text-secondary-color text-7xl font-extrabold mb-6 max-md:text-3xl">
                 وابدأ ببيع دوراتك
             </h1>
 
-            <h6 className="text-[#778767] text-center">
+            <h6 className="text-[#778767] text-center max-md:text-sm max-md:max-w-[300px]">
                 مُرتَّب منصة سهلة الاستخدام تمكّنك من رفع دوراتك ومنتجاتك الرقمية وبيعها خلال دقائق <br />
                  بدون أي خبرة تقنية
             </h6>
@@ -40,14 +40,14 @@ function Hero() {
                 </button>
             </div>
 
-            <div className="bg-tertiary-color mt-8 border-7 border-white rounded-xl w-[50rem] h-[70px] flex flex-col items-center justify-center">
+            <div className="bg-tertiary-color mt-8 border-7 border-white rounded-xl w-[50rem] h-[70px] flex flex-col items-center justify-center max-md:w-[25rem]">
                 <div className="flex justify-center items-center gap-8">
                     <div className="flex gap-1.5">
                         <FaCircle className="text-[red] text-xs inline"/>
                         <FaCircle className="text-[orange] text-xs inline"/>
                         <FaCircle className="text-[green] text-xs inline"/>
                     </div>
-                    <div dir="ltr"className="bg-[#e4f1d6] text-[#b1bca5] w-[40rem] h-[30px] rounded-xl px-3 py-0.5">https://yourAcademy/murattab.com</div>
+                    <div dir="ltr"className="bg-[#e4f1d6] text-[#b1bca5] w-[40rem] h-[30px] rounded-xl px-3 py-0.5 max-md:w-[17rem] max-md:text-sm">https://yourAcademy/murattab.com</div>
                 </div>
             </div>
 
