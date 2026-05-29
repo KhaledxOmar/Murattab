@@ -15,7 +15,7 @@ function ShowCase(){
                     لوحة التحكم
                 </h4>
             </div>
-            <h1 className="text-center text-primary-color pb-5 text-5xl font-extrabold">
+            <h1 className="text-center text-primary-color pb-5 text-5xl font-extrabold max-md:text-xl">
                 هكذا ستبدو لوحة تحكمك
             </h1>
             
@@ -23,7 +23,7 @@ function ShowCase(){
                 إدارة دوراتك وطلابك ومبيعاتك من مكان واحد آمن وسهل  
             </h5>
 
-            <div className="flex justify-center items-center px-36 gap-3">
+            <div className="flex justify-center items-center px-36 gap-3 max-md:px-5">
                 <img src="/src/assets/dashboard.png"/>
             </div>
         </section>
