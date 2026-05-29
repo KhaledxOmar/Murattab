@@ -1,4 +1,5 @@
 import { FaCircle} from "react-icons/fa"
+import dashBoardImg from '/src/assets/dashboard.png'
 
 
 function ShowCase(){
@@ -24,7 +25,7 @@ function ShowCase(){
             </h5>
 
             <div className="flex justify-center items-center px-36 gap-3 max-md:px-5">
-                <img src="/src/assets/dashboard.png"/>
+                <img src={dashBoardImg}/>
             </div>
         </section>
     )
