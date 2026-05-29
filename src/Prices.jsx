@@ -18,7 +18,7 @@ function Prices() {
             </div>
             
 
-            <h1 className="text-center text-primary-color pb-7 text-5xl font-extrabold">
+            <h1 className="text-center text-primary-color pb-7 text-5xl font-extrabold max-md:text-2xl">
                 خطة تناسب الجميع
             </h1>
             
@@ -26,7 +26,7 @@ function Prices() {
                  خذ راحتك وبيع كورساتك  
             </h5>
 
-            <div className="flex justify-center items-center px-70">
+            <div className="flex justify-center items-center px-70 max-md:px-25">
 
                 {/* <div className={boxes}>
                        
@@ -51,7 +51,7 @@ function Prices() {
                     
                 </div> */}
 
-                <div className='bg-secondary-color h-[580px] w-[420px] rounded-3xl border-[#abc394] border-1 hover:shadow-xl hover:-translate-y-3 duration-300 mt-9 px-6.5 pt-9'>
+                <div className='bg-secondary-color h-[580px] w-[420px] rounded-3xl border-[#abc394] border-1 hover:shadow-xl hover:-translate-y-3 duration-300 mt-9 px-6.5 pt-9 max-md:w-[410px]'>
                     
                     <h1 className="text-tertiary-color text-2xl font-extrabold mb-3">
                       مجانية    
@@ -73,7 +73,7 @@ function Prices() {
                     </ul>
                     
                     <div className="flex justify-center">
-                        <button className="bg-tertiary-color text-secondary-color font-medium px-38 py-3 rounded-2xl hover:bg-white duration-200 cursor-pointer">ابدأ الآن</button>
+                        <button className="bg-tertiary-color text-secondary-color font-medium px-38 py-3 rounded-2xl hover:bg-white duration-200 cursor-pointer max-md:text-sm">ابدأ الآن</button>
                     </div>
                     
                     

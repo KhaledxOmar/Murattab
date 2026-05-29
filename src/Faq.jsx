@@ -82,7 +82,7 @@ function Faq(){
                 </h4>
             </div>
 
-            <h1 className="text-center text-tertiary-color pb-5 text-5xl font-extrabold">
+            <h1 className="text-center text-tertiary-color pb-5 text-5xl font-extrabold max-md:text-2xl">
                 إجابات على أسئلتك
             </h1>
             
@@ -90,7 +90,7 @@ function Faq(){
                كل ما تحتاج معرفته عن المنصة والدفع والمدفوعات    
             </h5>
 
-            <div className="flex flex-col items-center px-36 ">
+            <div className="flex flex-col items-center px-36 max-md:px-10">
                 
                     
  
