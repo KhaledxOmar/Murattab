@@ -1,7 +1,8 @@
 import {Route, createBrowserRouter, createRoutesFromElements, RouterProvider} from 'react-router-dom'
 import LandingPage from './pages/LandingPage'
 import NotFoundPage from './pages/NotFoundPage'
-import DashboardPage from './pages/dashboardPage'
+import DashboardPage from './pages/DashboardPage'
+
 
 function App() {
 
