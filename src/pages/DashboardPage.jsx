@@ -1,8 +1,13 @@
 import SideBar from '../components/dashboard/SideBar'
+import Feed from '../components/dashboard/Feed'
 
 function DashboardPage(){
     return(
-        <SideBar/>
+        <div className='bg-tertiary-color flex'>
+            <SideBar/>
+            <Feed/>
+        </div>
+        
     )
 }
 
