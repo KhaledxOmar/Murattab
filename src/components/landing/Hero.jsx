@@ -4,21 +4,21 @@ function Hero() {
 
 
     return(
-        <section className="bg-tertiary-color flex flex-col justify-start pt-35 pb-35 items-center min-h-[90vh] max-md:min-h-[80vh]">
+        <section className="bg-tertiary-color flex flex-col justify-start pt-35 pb-35 items-center min-h-[90vh] max-md:min-h-[80vh] max-[1920px]:min-h-[60vh] min-[1921px]:h-[60vh] min-[1921px]:pt-50">
             <h4 className="px-4 py-1 bg-[#f7fdf0] text-secondary-color rounded-2xl mb-8">
             <FaCircle className="inline text-xs ml-2 px-[1px]"/>
             منصة عربية متكاملة لبيع الدورات
             </h4>
 
-            <h1 className="text-primary-color text-7xl font-extrabold mb-4 max-md:text-3xl max-lg:text-4xl">
+            <h1 className="text-primary-color text-7xl font-extrabold mb-4 max-md:text-3xl max-lg:text-4xl min-[1921px]:text-8xl min-[1921px]:mb-6">
                 أنشئ أكاديميتك
             </h1>
 
-            <h1 className="text-secondary-color text-7xl font-extrabold mb-6 max-md:text-3xl max-lg:text-4xl">
+            <h1 className="text-secondary-color text-7xl font-extrabold mb-6 max-md:text-3xl max-lg:text-4xl min-[1921px]:text-8xl min-[1921px]:mb-10">
                 وابدأ ببيع دوراتك
             </h1>
 
-            <h6 className="text-[#778767] text-center max-md:text-sm max-md:max-w-[300px]">
+            <h6 className="text-[#778767] text-center max-md:text-sm max-md:max-w-[300px] min-[1921px]:text-lg">
                 مُرتَّب منصة سهلة الاستخدام تمكّنك من رفع دوراتك ومنتجاتك الرقمية وبيعها خلال دقائق <br />
                  بدون أي خبرة تقنية
             </h6>
