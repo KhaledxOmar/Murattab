@@ -18,9 +18,8 @@ function SideBar(){
         "text-secondary-color py-3 pr-5 flex items-center justify-start hover:bg-secondary-color/50 hover:rounded-lg mx-1.5 hover:text-tertiary-color duration-200 text-sm"
 
     return(
-
-        <div className="h-[100vh] w-[14vw] bg-primary-color flex flex-col justify-between">
-            
+        <div className="h-[100vh] w-[16vw] bg-primary-color flex flex-col justify-between">
+        
             <div>
                 <div className="text-center pt-3 flex items-center justify-start mr-6 mb-3">
                     <FaBook className="bg-secondary-color text-tertiary-color text-3xl px-2 py-1 ml-2 rounded-md max-md:text-2xl max-md:ml-1"/>
@@ -43,7 +42,7 @@ function SideBar(){
 
             <NavLink className="text-tertiary-color py-3 pr-6 border-1 border-secondary-color/50 flex items-center justify-between hover:bg-secondary-color/50 duration-200 text-sm" to="/account"><span>El Zero</span><FaEllipsisV className="ml-2"/></NavLink>
 
-        </div>
+        </div>  
     )
 }
 export default SideBar
