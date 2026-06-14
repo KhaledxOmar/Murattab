@@ -15,8 +15,8 @@ function FeedItem({subscription}) {
                     {subscription.amount}
                 </p>
             </div>
-            
-            <hr className="text-[#b3bfa7]/20 border-1 mx-7"/>
+
+            <hr className="text-[#b3bfa7]/20 border-1 mx-6"/>
 
         </section>
     )
