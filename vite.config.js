@@ -8,6 +8,10 @@ export default defineConfig({
   plugins: [react(),
      tailwindcss()
   ],
+  optimizeDeps: {
+    include: ['recharts'],
+    force: true,
+  },
   server: {
     port: 3002
   }
