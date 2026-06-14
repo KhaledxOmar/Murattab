@@ -1,12 +1,12 @@
-import Hero from '../components/Hero'
-import NavBar from '../components/NavBar'
-import WhyUs from '../components/WhyUs'
-import Features from '../components/Features'
-import ShowCase from '../components/ShowCase'
-import HowItWorks from '../components/HowItWorks'
-import Prices from '../components/Prices'
-import Faq from '../components/Faq'
-import Footer from '../components/Footer'
+import Hero from '../components/landing/Hero'
+import NavBar from '../components/landing/NavBar'
+import WhyUs from '../components/landing/WhyUs'
+import Features from '../components/landing/Features'
+import ShowCase from '../components/landing/ShowCase'
+import HowItWorks from '../components/landing/HowItWorks'
+import Prices from '../components/landing/Prices'
+import Faq from '../components/landing/Faq'
+import Footer from '../components/landing/Footer'
 
 function LandingPage(){
 

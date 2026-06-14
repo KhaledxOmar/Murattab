@@ -3,7 +3,7 @@ import { FaCircle } from "react-icons/fa"
 
 
 function Features(){
-    const boxes = 'bg-white h-[210px] w-[310px] px-8 pt-7 rounded-2xl border-[#b3bfa7]/15 border-1 hover:shadow-xl hover:-translate-y-1 duration-300 mt-9'
+    const boxes = 'bg-white h-[210px] w-[310px] px-8 pt-7 rounded-2xl border-[#b3bfa7]/15 border-1 hover:shadow-xl hover:-translate-y-1 duration-300 mt-9 max-xl:mx-4'
     const title = "text-primary-color text-lg font-semibold mb-3"
     const body = "text-[#959d8d] text-sm"
 
@@ -26,7 +26,7 @@ function Features(){
             أدوات قوية وسهلة الاستخدام لإنشاء وبيع دوراتك التعليمية
             </h5>
 
-            <div className="flex justify-between items-center flex-wrap px-65 max-md:flex-col max-md:px-30 max-md:flex-nowrap">
+            <div className="flex justify-between items-center flex-wrap px-65 max-xl:justify-center max-xl:px-30 max-lg:justify-center max-md:justify-center max-md:px-30 max-xl:flex-wrap max-sm:flex-col">
                 <div className={boxes}>
                     
                         <FaBoltLightning className="text-secondary-color bg-tertiary-color w-[3rem] h-[3rem] px-4 py-1 rounded-lg mb-5"/>

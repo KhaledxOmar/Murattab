@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
 import { FaExclamationTriangle } from 'react-icons/fa'
-import NavBar from '../components/NavBar'
+import NavBar from '../components/landing/NavBar'
 
 function NotFoundPage(){
 

@@ -1,6 +1,8 @@
 import {Route, createBrowserRouter, createRoutesFromElements, RouterProvider} from 'react-router-dom'
 import LandingPage from './pages/LandingPage'
 import NotFoundPage from './pages/NotFoundPage'
+import DashboardPage from './pages/DashboardPage'
+
 
 function App() {
 
@@ -8,6 +10,7 @@ function App() {
     createRoutesFromElements(
       <>
       <Route index element={<LandingPage/>}/>
+      <Route path='/dashboard' element={<DashboardPage/>}/>
       <Route path='*' element={<NotFoundPage/>}/>
       </>
     )
