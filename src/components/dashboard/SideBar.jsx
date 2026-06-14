@@ -18,7 +18,7 @@ function SideBar(){
         "text-secondary-color py-3 pr-5 flex items-center justify-start hover:bg-secondary-color/50 hover:rounded-lg mx-1.5 hover:text-tertiary-color duration-200 text-sm"
 
     return(
-        <div className="h-[100vh] w-[16vw] bg-primary-color flex flex-col justify-between">
+        <div className="min-h-[100vh] w-[16vw] bg-primary-color flex flex-col justify-between">
         
             <div>
                 <div className="text-center pt-3 flex items-center justify-start mr-6 mb-3">
