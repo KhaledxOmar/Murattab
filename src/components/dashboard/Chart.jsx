@@ -29,16 +29,14 @@ const productSales = [
 function Chart() {
 
     return(
-        <div>
-            <p className="text-xl font-bold py-1 mr-8 mt-6">أهلا خالد، لوحة التحكم</p>
-
-            
-            <div dir="ltr" className="w-[117vh] h-[68vh] bg-white px-15 py-8 mr-8 rounded-xl mt-8">
-              {/* Header */}
-              <div className="text-right mb-9">
-                <p className="text-lg font-bold text-gray-800">المبيعات خلال الأسبوع</p>
-                <p className="text-sm text-gray-400">تتبع أداء دوراتك والإيرادات اليومية</p>
-              </div>
+      <div className="w-full">
+      <p className="text-xl font-bold py-1 mb-8">أهلا خالد، لوحة التحكم</p>
+    
+          <div dir="ltr" className="w-full bg-white px-8 py-8 rounded-xl mt-6">
+            <div className="text-right mb-9">
+              <p className="text-lg font-bold text-gray-800">المبيعات خلال الأسبوع</p>
+              <p className="text-sm text-gray-400">تتبع أداء دوراتك والإيرادات اليومية</p>
+            </div>
 
               {/* Chart */}
               <div dir="ltr" style={{ width: '100%', height: 280 }}>
