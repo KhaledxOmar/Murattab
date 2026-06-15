@@ -33,10 +33,10 @@ function Feed() {
     
     return(
         
-        <div>
+        <div className='flex flex-col max-[800px]:pt-60 max-[800px]:items-center'>
             <div className="flex justify-between mr-7">
 
-                <div className="mt-6">
+                <div>
                   <button className="bg-tertiary-color px-8 py-1 ml-2 rounded-xl text-primary-color border-2 border-[#c4d4b3] font-medium hover:border-secondary-color hover:text-secondary-color duration-300 cursor-pointer">
                       <span>
                         <a href="/your-academy">أكاديميتك</a>
@@ -53,15 +53,14 @@ function Feed() {
                      
             </div>
 
-            <section className="w-[53.5vh] h-[89vh] bg-white mr-7 mt-8 pt-1 rounded-xl">
-            
+            <section className="w-[52vh] h-[89vh] bg-white mt-8 pt-1 rounded-xl max-[1150px]:w-[48vh]">
             
                 <p className="mt-4 pr-5 py-1 text-secondary-color text-lg font-semibold mb-1">
                 <FaCircle className="inline text-xs ml-2 px-[1px]"/>
                     <span className='text-primary-color'>آخر الاشتراكات</span>
                 </p>
 
-                <section className='felx flex-col'>
+                <section className='flex flex-col'>
                 
                     {
                         subscriptions.map((subscription)=>
@@ -72,7 +71,6 @@ function Feed() {
                 </section>
 
             </section>
-
         </div>
         
     )
