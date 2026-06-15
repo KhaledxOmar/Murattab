@@ -1,7 +1,7 @@
 import { FaBook, FaDesktop, FaUser, FaCog, FaTasks, FaEnvelope, FaEllipsisV } from "react-icons/fa" 
 import { Link, NavLink } from "react-router-dom"
 
-function SideBar(){
+function SideBar({ isOpen, onClose }){
 
     const styles = 'text-secondary-color py-3 pr-5 flex items-center justify-start hover:bg-secondary-color/50 hover:rounded-lg mx-1.5 hover:text-tertiary-color duration-200 text-sm'
     let activeLink = ({isActive}) => 
@@ -18,9 +18,17 @@ function SideBar(){
         "text-secondary-color py-3 pr-5 flex items-center justify-start hover:bg-secondary-color/50 hover:rounded-lg mx-1.5 hover:text-tertiary-color duration-200 text-sm"
 
     return(
-        <div className="min-h-screen w-64 bg-primary-color flex flex-col justify-between shrink-0 max-[800px]:hidden max-[1150px]:w-60 fixed z-2">
-
-
+        <div className={`min-h-screen w-64 bg-primary-color flex flex-col justify-between shrink-0 fixed z-20 max-[1150px]:w-60 transition-transform duration-300
+            max-[800px]:w-64
+            ${isOpen ? 'max-[800px]:translate-x-0' : 'max-[800px]:translate-x-full'}`}>
+            
+            {/* زر إغلاق يظهر في الموبايل فقط */}
+            <button 
+              onClick={onClose}
+              className="hidden max-[800px]:block text-tertiary-color text-xl absolute top-3 left-3 cursor-pointer"
+            >
+              ✕
+            </button>
         
             <div>
                 <div className="text-center pt-3 flex items-center justify-start mr-6 mb-3">
