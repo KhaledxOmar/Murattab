@@ -53,7 +53,7 @@ function Feed() {
                      
             </div>
 
-            <section className="w-[52vh] h-[89vh] bg-white mt-8 pt-1 rounded-xl max-[1150px]:w-[48vh]">
+            <section className="w-[52vh] min-h-[89vh] bg-white mt-8 pt-1 rounded-xl max-[1150px]:w-[48vh]">
             
                 <p className="mt-4 pr-5 py-1 text-secondary-color text-lg font-semibold mb-1">
                 <FaCircle className="inline text-xs ml-2 px-[1px]"/>
