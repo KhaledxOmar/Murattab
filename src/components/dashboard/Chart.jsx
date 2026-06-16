@@ -30,7 +30,8 @@ const productSales = [
 function Chart({ onMenuClick }) {
 
     return(
-      <div className="w-full">
+      <section className="flex justify-center">
+          <div className="w-[95%]">
         {/* يظهر فقط في الموبايل */}
         <FaBars 
           onClick={onMenuClick}
@@ -97,7 +98,9 @@ function Chart({ onMenuClick }) {
             </div>
             
           </div>
-        </div>
+          </div>
+      </section>
+      
         
     )
 }
