@@ -8,13 +8,21 @@ function DashboardPage() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
 
   return (
-    <div className="flex min-h-screen bg-tertiary-color overflow-x-scroll">
+    <div className="flex min-h-screen bg-tertiary-color">
       <SideBar isOpen={isSidebarOpen} onClose={() => setIsSidebarOpen(false)} />
 
       <main className="flex-1 flex gap-6 p-6 pr-70 max-[800px]:flex-col max-[800px]:pr-4">
         <div className="flex-1 flex flex-col gap-4">
-          <Chart onMenuClick={() => setIsSidebarOpen(true)} />
-          <Statistics />
+            <Chart onMenuClick={() => setIsSidebarOpen(true)} />
+
+            {/* close the side bar when clicking on the screen */}
+            {isSidebarOpen && (
+                <div 
+                onClick={() => setIsSidebarOpen(false)} 
+                className="max-[800px]:block fixed inset-0"
+                />
+            )}
+            <Statistics />
         </div>
         <Feed />
       </main>
