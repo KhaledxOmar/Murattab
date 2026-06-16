@@ -26,7 +26,7 @@ function Features(){
             أدوات قوية وسهلة الاستخدام لإنشاء وبيع دوراتك التعليمية
             </h5>
 
-            <div className="flex justify-between items-center flex-wrap px-65 max-xl:justify-center max-xl:px-30 max-lg:justify-center max-md:justify-center max-md:px-30 max-xl:flex-wrap max-sm:flex-col">
+            <div className="flex justify-between items-center flex-wrap px-65 max-xl:justify-center max-xl:px-30 max-lg:justify-center max-md:justify-center max-md:px-30 max-xl:flex-wrap max-sm:flex-col max-sm:px-2">
                 <div className={boxes}>
                     
                         <FaBoltLightning className="text-secondary-color bg-tertiary-color w-[3rem] h-[3rem] px-4 py-1 rounded-lg mb-5"/>
